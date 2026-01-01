@@ -7,5 +7,3 @@ void main() {
   g1.cal();
   d1.cal();
 }
-
-

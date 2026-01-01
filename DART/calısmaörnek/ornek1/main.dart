@@ -1,3 +1,6 @@
+// ignore_for_file: unused_import
+//bu yukarıdaki kod "import 'calisan.dart'" gereksiz ve kullanıldığı için yok saymak için konuldu.
+
 import 'calisan.dart';
 import 'yazilimci.dart';
 
