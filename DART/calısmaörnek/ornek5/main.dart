@@ -10,11 +10,9 @@ void main(){
   buyucu.saldir();
 
   buyucu.manaharca(50);
+  
+  sovalye.can = -20;
 
-  Set(){
-    sovalye.can == -20;
-  }
   print(sovalye.can);
-  // print(buyucu.can);
-  // print(buyucu.miktar);
+  print(buyucu.can);
 }

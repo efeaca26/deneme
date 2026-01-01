@@ -4,13 +4,15 @@ abstract class Oyuncu {
 
   Oyuncu(this._can, this.ad);
 
-  get can{
-    this._can;
+  int get can {
+    return _can; 
   }
 
-  set can(deger){
-    if(deger <=0)
-    {
+  set can(int deger) {
+    _can = deger; 
+    
+    if (_can <= 0) {
+      _can = 0;
       print("$ad öldü.");
     }
   }
