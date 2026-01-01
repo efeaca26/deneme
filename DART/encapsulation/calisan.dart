@@ -15,7 +15,7 @@ class Calisan {
   double? get zam {
     return _zam;
   }
-
+ 
   set zam(double? value) {
     _zam = value;
   }
