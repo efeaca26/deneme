@@ -11,7 +11,7 @@ class Calisan {
     return _maas;
   }
 
-  //SETTER
+  // SETTER
   set maas(int value) {
     _maas = value;
   }
